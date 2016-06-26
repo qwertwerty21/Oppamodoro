@@ -127,10 +127,10 @@
 	Timer.prototype.showNotification = function(){
 		if( typeof Notification === 'function' ){
 			
-			if( !kickOutTheJams ){
+			if( !this.kickOutTheJams ){
 				var workNotification = new Notification( "Oppa-modoro Gangnam Style!", {
 					body: "Sugeo hae~! It's work time!",
-					icon: "img/psylogo.PNG"
+					icon: "img/psylogo.png"
 				});
 
 				workNotification.onclick = function(){
@@ -138,11 +138,11 @@
 				};
 			}
 
-			else if( kickOutTheJams ){
+			else if( this.kickOutTheJams ){
 			
 				var breakNotification = new Notification( "Oppa-modoro Gangnam Style!", {
 					body: "You've completed " + pomodorosFinished + " Oppa-modoro(s)! Go saeng haesseo! Time for a quick break!",
-					icon: "img/psylogo.PNG"
+					icon: "img/psylogo.png"
 				});	
 
 				breakNotification.onclick = function(){
