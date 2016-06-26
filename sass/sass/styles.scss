@@ -110,6 +110,11 @@ body{
   
 }
 
+.oppa-title{
+  color: $red;
+  @include text-shadow( 1px 1px 1px 1px $black );
+}
+
 .count-down-time{
   color: $red;
 	font-size: 38em;

@@ -24,11 +24,16 @@ window.onYouTubeIframeAPIReady = function(){
 	
 	});
 	
-}
+};
 
 function onPlayerReady( event ){
 	kPopIframeYT = event.target;
 	kPopIframeYT.pauseVideo();
+	setTimeout( setShuffleFunction, 1000 );
+}
+
+function setShuffleFunction(){
+	kPopIframeYT.setShuffle( true );
 }
 
 function onPlayerStateChange(event) {    
@@ -53,7 +58,7 @@ function onPlayerStateChange(event) {
 		newBGGif = "url(" + newBGGif + ") no-repeat center fixed";
 
 		$( "body" ).css( "background", newBGGif );
-		$( "body" ).css( "background-size", "cover")
+		$( "body" ).css( "background-size", "cover");
 		
 		myPomoTimer.kickOutTheJams = false;
 		myPomoTimer.showNotification();

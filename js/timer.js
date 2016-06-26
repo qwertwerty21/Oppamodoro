@@ -99,8 +99,7 @@
 		//reset clock and display kitties
 		if( !this.kickOutTheJams ){
 			
-			this.kickOutTheJams = true;
-			//CATS VOLUME PLAYUS IN BACKGROUND EVEN THOUGH HIDEEN TIMER KEEPS COUNTING EVEN IN YOUTUBE MODE FIX THAT AND YOU GOOD 
+			this.kickOutTheJams = true; 
 			
 
 			$( "#mainContentArea" ).addClass( "hidden" );
@@ -129,7 +128,7 @@
 			
 			if( !this.kickOutTheJams ){
 				var workNotification = new Notification( "Oppa-modoro Gangnam Style!", {
-					body: "Sugeo hae~! It's work time!",
+					body: "It's work time! Sugeo hae~!",
 					icon: "img/psylogo.png"
 				});
 

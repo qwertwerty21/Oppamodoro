@@ -558,6 +558,13 @@ body {
 }
 
 /* line 113, ../sass/styles.scss */
+.oppa-title {
+  color: #AE152B;
+  text-shadow: 1px 1px 1px #100F1E;
+  text-shadow: 1px 1px 1px 1px #100F1E;
+}
+
+/* line 118, ../sass/styles.scss */
 .count-down-time {
   color: #AE152B;
   font-size: 38em;
@@ -565,7 +572,7 @@ body {
   text-shadow: 2px 2px 2px 2px #100F1E;
 }
 
-/* line 119, ../sass/styles.scss */
+/* line 124, ../sass/styles.scss */
 .start-pause-btn {
   background-color: #20D470;
   box-shadow: 2px 2px 2px #100F1E;
@@ -577,12 +584,12 @@ body {
   text-shadow: 1px 1px 1px 1px #ffffff;
 }
 
-/* line 130, ../sass/styles.scss */
+/* line 135, ../sass/styles.scss */
 .inline-block {
   display: inline-block;
 }
 
-/* line 134, ../sass/styles.scss */
+/* line 139, ../sass/styles.scss */
 .work-break-label {
   color: #DCCE41;
   font-size: 2em;
@@ -592,19 +599,19 @@ body {
   text-shadow: 1px 1px 1px 1px #100F1E;
 }
 
-/* line 142, ../sass/styles.scss */
+/* line 147, ../sass/styles.scss */
 .add-minus-time-btn {
   background-color: #DCCE41;
   font-size: 1.5em;
   position: relative;
 }
 
-/* line 148, ../sass/styles.scss */
+/* line 153, ../sass/styles.scss */
 .glyphicon-plus, .glyphicon-minus {
   color: #100F1E;
 }
 
-/* line 152, ../sass/styles.scss */
+/* line 157, ../sass/styles.scss */
 .add-minus-time-count {
   color: #DCCE41;
   font-size: 2.5em;
@@ -612,20 +619,20 @@ body {
   text-shadow: 1px 1px 1px 1px #100F1E;
 }
 
-/* line 158, ../sass/styles.scss */
+/* line 163, ../sass/styles.scss */
 .kpop-shower-div {
   display: block;
   width: 100vw;
   height: 100vh;
 }
 
-/* line 164, ../sass/styles.scss */
+/* line 169, ../sass/styles.scss */
 footer {
   position: relative;
   bottom: 0;
   width: 100%;
 }
-/* line 169, ../sass/styles.scss */
+/* line 174, ../sass/styles.scss */
 footer h4 {
   color: #DCCE41;
   font-size: 2em;
@@ -639,7 +646,7 @@ footer h4 {
 /*
  * Hide visually and from screen readers:
  */
-/* line 186, ../sass/styles.scss */
+/* line 191, ../sass/styles.scss */
 .hidden {
   display: none !important;
 }
@@ -648,7 +655,7 @@ footer h4 {
  * Hide only visually, but have it available for screen readers:
  * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
  */
-/* line 195, ../sass/styles.scss */
+/* line 200, ../sass/styles.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -659,7 +666,7 @@ footer h4 {
   position: absolute;
   width: 1px;
 }
-/* line 205, ../sass/styles.scss */
+/* line 210, ../sass/styles.scss */
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
   clip: auto;
   height: auto;
@@ -677,7 +684,7 @@ footer h4 {
 /*
  * Hide visually and from screen readers, but maintain layout
  */
-/* line 226, ../sass/styles.scss */
+/* line 231, ../sass/styles.scss */
 .invisible {
   visibility: hidden;
 }
@@ -693,14 +700,14 @@ footer h4 {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-/* line 243, ../sass/styles.scss */
+/* line 248, ../sass/styles.scss */
 .clearfix:before {
   content: " ";
   /* 1 */
   display: table;
   /* 2 */
 }
-/* line 249, ../sass/styles.scss */
+/* line 254, ../sass/styles.scss */
 .clearfix:after {
   content: " ";
   /* 1 */
@@ -716,48 +723,48 @@ footer h4 {
    ========================================================================== */
 @media only screen and (max-width: 900px) {
   /* Style adjustments for viewports that meet the condition */
-  /* line 266, ../sass/styles.scss */
+  /* line 271, ../sass/styles.scss */
   body {
     font-size: 50%;
   }
 
-  /* line 270, ../sass/styles.scss */
+  /* line 275, ../sass/styles.scss */
   .count-down-time {
     font-size: 30em;
   }
 
-  /* line 274, ../sass/styles.scss */
+  /* line 279, ../sass/styles.scss */
   .start-pause-btn {
     width: 15%;
   }
 }
 @media only screen and (max-width: 550px) {
   /* Style adjustments for viewports that meet the condition */
-  /* line 282, ../sass/styles.scss */
+  /* line 287, ../sass/styles.scss */
   body {
     font-size: 35%;
   }
 }
 @media only screen and (max-width: 400px) {
   /* Style adjustments for viewports that meet the condition */
-  /* line 290, ../sass/styles.scss */
+  /* line 295, ../sass/styles.scss */
   body {
     font-size: 25%;
   }
 
-  /* line 294, ../sass/styles.scss */
+  /* line 299, ../sass/styles.scss */
   .count-down-time {
     font-size: 25em;
   }
 
-  /* line 298, ../sass/styles.scss */
+  /* line 303, ../sass/styles.scss */
   .start-pause-btn {
     width: 20%;
   }
 }
 @media only screen and (max-width: 200px) {
   /* Style adjustments for viewports that meet the condition */
-  /* line 308, ../sass/styles.scss */
+  /* line 313, ../sass/styles.scss */
   .add-minus-time-btn {
     display: block;
     margin-left: auto;
@@ -773,7 +780,7 @@ footer h4 {
    http://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
 @media print {
-  /* line 326, ../sass/styles.scss */
+  /* line 331, ../sass/styles.scss */
   * {
     background: transparent !important;
     color: #000 !important;
@@ -782,7 +789,7 @@ footer h4 {
     box-shadow: none !important;
     text-shadow: none !important;
   }
-  /* line 333, ../sass/styles.scss */
+  /* line 338, ../sass/styles.scss */
   *:before, *:after {
     background: transparent !important;
     color: #000 !important;
@@ -792,20 +799,20 @@ footer h4 {
     text-shadow: none !important;
   }
 
-  /* line 342, ../sass/styles.scss */
+  /* line 347, ../sass/styles.scss */
   a {
     text-decoration: underline;
   }
-  /* line 344, ../sass/styles.scss */
+  /* line 349, ../sass/styles.scss */
   a:visited {
     text-decoration: underline;
   }
-  /* line 347, ../sass/styles.scss */
+  /* line 352, ../sass/styles.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 351, ../sass/styles.scss */
+  /* line 356, ../sass/styles.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
@@ -814,12 +821,12 @@ footer h4 {
    * Don't show links that are fragment identifiers,
    * or use the `javascript:` pseudo protocol
    */
-  /* line 359, ../sass/styles.scss */
+  /* line 364, ../sass/styles.scss */
   a[href^="#"]:after, a[href^="javascript:"]:after {
     content: "";
   }
 
-  /* line 363, ../sass/styles.scss */
+  /* line 368, ../sass/styles.scss */
   pre, blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
@@ -829,29 +836,29 @@ footer h4 {
    * Printing Tables:
    * http://css-discuss.incutio.com/wiki/Printing_Tables
    */
-  /* line 371, ../sass/styles.scss */
+  /* line 376, ../sass/styles.scss */
   thead {
     display: table-header-group;
   }
 
-  /* line 374, ../sass/styles.scss */
+  /* line 379, ../sass/styles.scss */
   tr {
     page-break-inside: avoid;
   }
 
-  /* line 377, ../sass/styles.scss */
+  /* line 382, ../sass/styles.scss */
   img {
     page-break-inside: avoid;
     max-width: 100% !important;
   }
 
-  /* line 381, ../sass/styles.scss */
+  /* line 386, ../sass/styles.scss */
   p, h2, h3 {
     orphans: 3;
     widows: 3;
   }
 
-  /* line 385, ../sass/styles.scss */
+  /* line 390, ../sass/styles.scss */
   h2, h3 {
     page-break-after: avoid;
   }
